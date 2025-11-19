@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:text="AYUSH"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hostle Name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BH-6"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="89dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/IP"
+        android:layout_marginLeft="250dp"/>
+
+    <TextView
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration_no."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/et5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12307123"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/et6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        />
+
+
+    <TextView
+        android:id="@+id/et7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Btech"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/et8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fee_to_Pay"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/et9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="amount"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+      />
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to apply" />
+
+
+</LinearLayout>
+
+
+
